@@ -1,2 +1,5 @@
-# java-spark-rest-mvc-2
-In this second part of the Spark project, web applications are developed using the Velocity template engine, allowing separation of business logic from the presentation layer. The goal is to generate dynamic HTML pages with placeholders, integrating Java code into the views while following the Model-View-Controller (MVC) architectural pattern.
+🇪🇸 **Español:**
+Trabajo práctico realizado para la asignatura Arquitectura de Software en el quinto año de Ingeniería en Informática en la Universidad Nacional de San Luis (Argentina). En esta segunda parte del proyecto con Spark, se desarrollan aplicaciones web utilizando el motor de plantillas Velocity, permitiendo separar la lógica de negocio de la capa de presentación. El objetivo es generar páginas HTML dinámicas con marcadores de posición, integrando código Java en las vistas y siguiendo el patrón arquitectónico Modelo-Vista-Controlador (MVC).
+
+🇬🇧 **English:**
+Practical assignment for the Software Architecture course in the fifth year of the Computer Engineering program at Nacional University of San Luis (Argentina). In this second part of the Spark project, web applications are developed using the Velocity template engine, allowing separation of business logic from the presentation layer. The goal is to generate dynamic HTML pages with placeholders, integrating Java code into the views while following the Model-View-Controller (MVC) architectural pattern.
