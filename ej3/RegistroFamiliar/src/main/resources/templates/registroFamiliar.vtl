@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Registro Familiar</title>
+    </head>
+    <body>
+        <form action="/getPersonas" method="get">
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" class="form-control" required/>
+            <br/><br/>
+            <button type=submit" class="btn">Personas</button>
+            <button type=submit" class="btn" formaction="/getHijos">Hijos</button>
+            <button type=submit" class="btn" formaction="/getNietos">Nietos</button>
+            <button type=submit" class="btn" formaction="/getPadres">Padres</button>
+            <button type=submit" class="btn" formaction="/getHermanos">Hermanos</button>
+            <button type=submit" class="btn" formaction="/getSobrinos">Sobrinos</button>
+            <button type=submit" class="btn" formaction="/getTios">Tios</button>
+        </form>
+        <br/>
+        <div>
+            <center>
+                <b>Cantidad de Personas: $p.size()</b>
+                <br/>
+                Ellos son: #set( $cuenta = 1 )
+                <table>
+                    #foreach( $persona in $p )
+                    <TR>
+                        <TD>$cuenta </TD>
+                        <TD>$persona.getNombre() $persona.getApellido() </TD>
+                    </TR>
+                        #set( $cuenta = $cuenta + 1 )
+                    #end
+                </table>
+            </center>
+        </div>
+    </body>
+</html>

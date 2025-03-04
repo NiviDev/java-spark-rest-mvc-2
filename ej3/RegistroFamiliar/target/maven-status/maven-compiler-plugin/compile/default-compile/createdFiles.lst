@@ -1,0 +1,5 @@
+spark/template/velocity/VelocityTemplateEngine.class
+com/nivi/registrofamiliar/RegistroFamiliar.class
+com/nivi/registrofamiliar/PersonaControlador.class
+com/nivi/registrofamiliar/Persona.class
+com/nivi/registrofamiliar/PersonaDAO.class

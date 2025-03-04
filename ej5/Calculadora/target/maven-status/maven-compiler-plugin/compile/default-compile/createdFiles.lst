@@ -1,0 +1,4 @@
+spark/template/velocity/VelocityTemplateEngine.class
+com/nivi/calculadora/Calculadora.class
+com/nivi/calculadora/CalculadoraControlador.class
+com/nivi/calculadora/CalculadoraMain.class
