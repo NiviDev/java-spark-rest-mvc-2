@@ -1,0 +1,37 @@
+<HTML>
+    <HEAD>
+        <TITLE>Numeros</TITLE>
+    </HEAD>
+    <BODY>
+        <form action='/ordenar' method='get'>
+            <div>
+                <label for="numero0">Numero 0: </label>
+                <input id="numero0" name="numero0" class="form-control" type="number" >
+                <BR/> <BR/>
+                <label for="numero1">Numero 1: </label>
+                <input id="numero1" name="numero1" class="form-control" type="number" >
+                <BR/> <BR/>
+                <label for="numero2">Numero 2: </label>
+                <input id="numero2" name="numero2" class="form-control" type="number" >
+                <BR/> <BR/>
+                <label for="numero3">Numero 3: </label>
+                <input id="numero3" name="numero3" class="form-control" type="number" >
+                <BR/> <BR/>
+                <label for="numero4">Numero 4: </label>
+                <input id="numero4" name="numero4" class="form-control" type="number" >
+                <BR/> <BR/>
+                <label for="numero5">Numero 5: </label>
+                <input id="numero5" name="numero5" class="form-control" type="number" >
+            </div>
+            <button type="submit" class="btn">Ordenar</button>
+            <button type="submit" class="btn" formaction="/desordenar">Desordenar</button>
+        </form>
+
+        <CENTER>
+            <B>Cantidad de numeros: $numeros.size()</B>
+            <BR/> <BR/>
+            Lista de numeros: $numeros.toString()
+        </CENTER>
+
+    </BODY>
+</HTML>
