@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Convertidor</title>
+    </head>
+    <body>
+        <form action="/celsAFahr" method="get">
+            <label for="valor">Convertir:</label>
+            <input id="valor" name="valor" class="form-control" required/>
+            <br/><br/>
+            <button type=submit" class="btn">Celsius a Fahrenheit </button>
+            <button type=submit" class="btn" formaction="/fahrACels">Fahrenheit a Celsius</button>
+            <br/><br/>
+            <button type=submit" class="btn" formaction="/metrosAPies">Metros a Pies</button>
+            <button type=submit" class="btn" formaction="/piesAMetros">Pies a Metros</button>
+            <br/><br/>
+            <button type=submit" class="btn" formaction="/kgALb">Kg a Lb</button>
+            <button type=submit" class="btn" formaction="/lbAKg">Lb a Kg</button>
+        </form>
+        <br/>
+        <div>
+            <center>
+                <b>Resultado:</b> $valorI $unidadI = $valorF $unidadF
+            </center>
+        </div>
+    </body>
+</html>

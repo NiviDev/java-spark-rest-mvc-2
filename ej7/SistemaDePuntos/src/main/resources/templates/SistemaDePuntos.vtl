@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Club Grido</title>
+    </head>
+    <body>
+        <form action="/getCanjeables" method="get">
+            <label for="puntos">Tus Puntos:</label>
+            <input id="puntos" name="puntos" class="form-control" required/>
+            <br/><br/>
+            <button type="submit" class="btn">Canjes Disponibles</button>
+        </form>
+        <br/>
+        <form action="/getProductos">
+            <button type="submit" class="btn">Ver Lista Completa</button>
+        </form>
+        <br/>
+        <div>
+            <center>
+                <b>$textoTabla</b>
+                <br/>
+                <table>
+                    #foreach( $producto in $p )
+                    <TR>
+                        <TD>$producto.getNombre()</TD>
+                        <TD>$producto.getPuntos() </TD>
+                    </TR>
+                    #end
+                </table>
+            </center>
+        </div>
+    </body>
+</html>
